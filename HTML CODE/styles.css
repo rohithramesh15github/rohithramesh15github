@@ -1,0 +1,135 @@
+@import url("http://fonts.googleapis.com/css?family=raleway:300,400");
+@import url("https:fonts.googleleapis,com/css/family=Metal+Mania");
+*{
+    box-sizing: border-box;
+    font-family:"raleway";
+    color: rgb(12, 10, 10);
+    text-decoration: none;
+    
+    
+}
+
+
+html,body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.nav ul{
+    margin: 0;
+    
+}
+
+.nav li{
+    display:inline;
+}
+
+.nav a{
+    display: inline-block;
+    padding: .6em;
+    color:rgb(247, 239, 239);
+
+    
+}
+.main nav{
+    text-align: center;
+    font-size: 3em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(225,225,225,.3)
+    
+
+
+}
+.nav a:hover{
+    background-color: rgba(15, 231, 231, 0.3);
+
+}
+
+.main-header{
+    background-image:url("Red_Smoke_-_Red_Background.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+
+    
+}
+
+.band-name{
+    text-align: center;
+    margin: 0;
+    font-size: 10em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+     color: rgb(240, 228, 228);
+
+}
+.band-name-large{
+    font-size: 3em;
+}
+.content-section{
+    margin:1em;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header{
+    font-family: "fantasy";
+    font-weight: normal;
+    color: rgb(21, 22, 22);
+    text-align: center;
+    font-size: 4em;
+    text-decoration: underline;
+
+}
+.about-band-image{
+    float:left;
+    height: 400px;
+    width: 400px;
+    margin:30px;
+    font-style: italic;
+    
+    
+}
+
+.facility-image{
+    height: 500px;
+    width: 1000px;
+}
+
+
+.placement-font{
+    font-size: 1.2em;
+}
+
+.main-footer{
+    background-color: rgb(204, 219, 228);
+    color: rgb(224, 126, 28);
+    padding: .25em 0;
+    
+} 
+
+.facility-font{
+    font-size: 1.5em;
+}
+.main-footer-container{
+    display: flex;
+    align-items: center;
+}
+.main-footer-container ul{
+    flex-grow: 1;
+    text-align: end;
+    
+}
+.footer-nav li{
+    padding-top: 0em;
+    padding-bottom: 0em;
+    
+    
+}
+.footer-nav img{
+    width: 30px;
+    height: 30px;
+}
